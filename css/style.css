@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@font-face {
+    font-family: 'Arkanoid';
+    src: url('arkanoid.ttf')  format('truetype');
+}
+
+* { 
+    padding: 0; 
+    margin: 0; 
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 10px;
+    font-family: 'Roboto';
+}
+
+.arkanoid {
+    font-family: 'Arkanoid';
+    font-size: 4em;
+    font-weight: bold;
+    margin: 10px;
+}
+.arkanoid span:nth-child(1) { color: #0066ff; }
+.arkanoid span:nth-child(2) { color: #00cc66; }
+.arkanoid span:nth-child(3) { color: #ff33cc; }
+.arkanoid span:nth-child(4) { color: #ffcc00; }
+.arkanoid span:nth-child(5) { color: #00cc99; }
+.arkanoid span:nth-child(6) { color: #ff0066; }
+.arkanoid span:nth-child(7) { color: #000099; }
+.arkanoid span:nth-child(8) { color: #cc33ff; }
+
+.author {
+    font-size: 1.2em;
+    letter-spacing: 0.2em;
+    color: #888;
+    margin-bottom: 20px;
+}
+
+canvas { 
+    background: #eee;
+    display: block; 
+    margin: 0 auto;
+}
+
+.link {
+    text-align: center;
+    font-family: 'Roboto';
+    width: 100%;
+    position: fixed;
+    bottom: 10px;
+}
+.link a {
+    color: lightgray;
+}
+.link a:hover {
+    color: darkgray;
+}
